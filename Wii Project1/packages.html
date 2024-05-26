@@ -42,7 +42,7 @@
             background-color: rgba(255, 255, 255, 0.1);
             border-radius: 10px;
         }
-        container {
+        .container {
             width: 80%;
             margin: 0 auto;
             overflow: hidden;
@@ -117,6 +117,21 @@
             font-size: 1.2em;
             border-top: 2px solid #fff;
         }
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%; /* Increase width for smaller screens */
+            }
+            nav a {
+                padding: 10px 15px; /* Adjust padding for smaller screens */
+            }
+        }
+        @media (max-width: 480px) {
+            nav a {
+                display: block; /* Stack navigation links vertically */
+                margin-bottom: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -132,7 +147,7 @@
     </nav>
     <div class="container">
         <div class="hero">
-            
+            <!-- Add hero image or other content here if needed -->
         </div>
         <div class="package-list">
             <div class="package-item">

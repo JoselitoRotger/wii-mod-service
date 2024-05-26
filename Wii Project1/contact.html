@@ -83,6 +83,21 @@
             padding: 1em 0;
             text-align: center;
         }
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%; /* Increase width for smaller screens */
+            }
+            nav a {
+                padding: 10px 15px; /* Adjust padding for smaller screens */
+            }
+        }
+        @media (max-width: 480px) {
+            nav a {
+                display: block; /* Stack navigation links vertically */
+                margin-bottom: 10px;
+            }
+        }
     </style>
 </head>
 <body>
