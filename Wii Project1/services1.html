@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rog Wii Modder - Services</title>
+    <style>
+        /* CSS styles go here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #002744; /* Deep blue background */
+            color: #fff; /* White text */
+        }
+
+        header {
+            background: #073642; /* Dark teal header */
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #073642;
+            margin-bottom: 1em;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            transition: transform 0.2s ease;
+        }
+
+        nav a:hover {
+            transform: scale(1.1);
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .centered-text {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
+        .services-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .service-item {
+            width: 30%;
+            background: #073642; /* Dark teal service background */
+            padding: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 1em;
+            border-radius: 5px; /* Rounded corners */
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .service-item:hover {
+            transform: translateY(-5px); /* Service hover effect */
+            background-color: #094f5d; /* Lighter background on hover */
+        }
+
+        .service-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px; /* Rounded image corners */
+        }
+
+        .service-item h3 {
+            margin-top: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="packages.html">Packages</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="centered-text services-intro">
+            <h2>Explore Our Modding Services</h2>
+            <p>We offer a variety of modding packages to suit your needs. Whether you want basic enhancements or an ultimate gaming setup, we have the perfect solution for you.</p>
+        </div>
+        <div class="services-list">
+            <div class="service-item">
+                <img src="images/service1-placeholder.png" alt="Basic Mod Package">
+                <h3>Basic Mod Package</h3>
+                <p>Softmodding for playing games from a USB drive or SD card. Installation of homebrew applications. Basic setup of emulators for retro gaming.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/service2-placeholder.png" alt="Advanced Mod Package">
+                <h3>Advanced Mod Package</h3>
+                <p>Includes everything in the Basic Mod Package. Custom themes and enhanced graphical settings. Additional emulators and game libraries pre-installed.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/service3-placeholder.png" alt="Ultimate Gaming Bundle">
+                <h3>Ultimate Gaming Bundle</h3>
+                <p>Includes everything in the Advanced Mod Package. Pre-loaded USB drive or SD card with over 10,000 games from 30+ consoles. Personalized game library setup.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

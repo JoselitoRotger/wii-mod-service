@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rog Wii Modder - Packages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #002744;
+            color: #fff;
+            cursor: url('images/Wii-Player-3.png'), auto;
+        }
+        header {
+            background: #073642;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #073642;
+            margin-bottom: 1em;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s, transform 0.2s;
+        }
+        nav a:hover {
+            background: #2aa198;
+            transform: scale(1.1);
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            overflow: hidden;
+            max-width: 1200px;
+        }
+        .hero {
+            text-align: center;
+            margin: 2em 0;
+        }
+        .hero img {
+            width: 100%;
+            height: auto;
+            max-width: 1000px;
+        }
+        .package-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 2em;
+        }
+        .package-item {
+            background: #073642;
+            color: #fff;
+            padding: 1em;
+            margin: 1em;
+            border-radius: 10px;
+            width: 30%;
+            text-align: center;
+            transition: background 0.3s ease, transform 0.3s ease;
+            cursor: pointer;
+            flex: 1 1 300px;
+        }
+        .package-item:hover {
+            transform: translateY(-5px);
+            background: #0A4957;
+        }
+        .package-item h3 {
+            margin-top: 1em;
+        }
+        .package-item p {
+            font-size: 0.9em;
+        }
+        .lower-nav {
+            background: #073642;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+        }
+        .lower-nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .lower-nav a:hover {
+            background: #2aa198;
+            transform: scale(1.1);
+        }
+        .cta-banner {
+            background: #ff4500;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            font-size: 1.2em;
+            border-top: 2px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Packages</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="packages.html">Packages</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="hero">
+            
+        </div>
+        <div class="package-list">
+            <div class="package-item">
+                <h3>Basic Mod Package</h3>
+                <p>Price: $50</p>
+                <p>Softmodding for playing games from a USB drive or SD card.</p>
+                <p>Installation of homebrew applications.</p>
+                <p>Basic setup of emulators for retro gaming.</p>
+            </div>
+            <div class="package-item">
+                <h3>Advanced Mod Package</h3>
+                <p>Price: $80</p>
+                <p>Includes everything in the Basic Mod Package.</p>
+                <p>Custom themes and enhanced graphical settings.</p>
+                <p>Additional emulators such as PS1 and GameCube game libraries pre-installed.</p>
+            </div>
+            <div class="package-item">
+                <h3>Ultimate Gaming Bundle</h3>
+                <p>Price: $120</p>
+                <p>Includes everything in the Advanced Mod Package.</p>
+                <p>Pre-loaded USB drive or SD card with over 10,000 games from 30+ consoles.</p>
+                <p>Personalized game library setup tailored to your favorite genres and preferences.</p>
+            </div>
+        </div>
+    </div>
+    <div class="cta-banner">
+        Hurry! Limited supplies of modded consoles.
+    </div>
+</body>
+</html>
