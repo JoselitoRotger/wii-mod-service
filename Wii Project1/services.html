@@ -44,7 +44,7 @@
             border-radius: 10px;
         }
 
-        container {
+        .container {
             width: 80%;
             margin: 0 auto;
             overflow: hidden;
@@ -209,13 +209,14 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
-                toggle.addEventListener('click', () => {
-                    const serviceItem = toggle.closest('.service-item');
-                    serviceItem.classList.toggle('open');
-                });
-            });
-        });
-    </script>
+                toggle.addEventListener('click', () =>
+                {
+    const serviceItem = toggle.closest('.service-item');
+    serviceItem.classList.toggle('open');
+});
+});
+});
+</script>
 </head>
 <body>
     <header>
