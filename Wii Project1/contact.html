@@ -13,7 +13,7 @@
             color: #fff;
             cursor: url('images/Wii-Player-4.png'), auto;
         }
-        header {
+        nav {
             background: #073642;
             color: #fff;
             padding: 1em 0;
@@ -21,26 +21,26 @@
             position: sticky;
             top: 0;
             z-index: 1000;
-        }
-        nav {
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
+        }
+        header {
             background: #073642;
-            margin-bottom: 1em;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
         }
         nav a {
             color: #fff;
             padding: 15px 20px;
             text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s, transform 0.2s;
+            transition: background 0.3s ease, border-radius 0.3s ease;
+            border-radius: 10px;
         }
         nav a:hover {
-            background: #2aa198;
-            transform: scale(1.1);
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
         }
         .container {
             width: 90%;

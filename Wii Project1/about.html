@@ -14,34 +14,35 @@
             cursor: url('/images/Wii-Player-1.png'), auto; /* Custom Wii cursor */
         }
 
+        nav {
+            background: #073642;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
         header {
-            background: #073642; /* Dark teal header */
+            background: #073642;
             color: #fff;
             padding: 1em 0;
             text-align: center;
         }
-
-        nav {
-            display: flex;
-            flex-wrap: wrap; /* Allow wrapping on small screens */
-            justify-content: center;
-            background: #073642;
-            margin-bottom: 1em;
-        }
-
         nav a {
             color: #fff;
             padding: 15px 20px;
             text-decoration: none;
-            border-radius: 5px; /* Rounded corners */
-            transition: background 0.3s, transform 0.2s; /* Smooth transition */
+            transition: background 0.3s ease, border-radius 0.3s ease;
+            border-radius: 10px;
         }
-
         nav a:hover {
-            background: #2aa198; /* Teal background on hover */
-            transform: scale(1.1);
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
         }
-
         .container {
             width: 80%;
             margin: 0 auto;
@@ -147,12 +148,6 @@
             <p>With years of experience and a commitment to quality, we stand out as your trusted partner in the gaming community. Choose Rog Wii Modder for reliable, professional, and innovative modding solutions.</p>
         </div>
     </div>
-    <div class="lower-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="packages.html">Packages</a>
-        <a href="contact.html">Contact</a>
-    </div>
+    
 </body>
 </html>
