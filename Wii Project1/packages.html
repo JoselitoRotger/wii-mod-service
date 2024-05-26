@@ -125,6 +125,21 @@
             nav a {
                 padding: 10px 15px; /* Adjust padding for smaller screens */
             }
+            nav {
+                position: sticky; /* Make navigation sticky */
+                top: 0; /* Position at the top */
+                background: #073642; /* Background color */
+                z-index: 1000; /* Ensure it's above other elements */
+                display: flex; /* Flex layout */
+                justify-content: space-around; /* Evenly distribute items */
+                align-items: center; /* Center items vertically */
+                flex-wrap: wrap; /* Wrap items */
+                padding: 10px 0; /* Padding */
+            }
+            .lower-nav {
+                position: static;
+                margin-top: 20px;
+            }
         }
         @media (max-width: 480px) {
             nav a {
@@ -172,6 +187,10 @@
                 <p>Personalized game library setup tailored to your favorite genres and preferences.</p>
             </div>
         </div>
+    </div>
+    <div class="lower-nav">
+        <a href="contact.html">Contact Us</a>
+        <a href="index.html">Back to Home</a>
     </div>
     <div class="cta-banner">
         Hurry! Limited supplies of modded consoles.
